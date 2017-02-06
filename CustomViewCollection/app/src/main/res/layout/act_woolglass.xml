@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+
+    <com.example.idea.customviewcollection.view.WoolglassImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/zuomian"/>
+
+    <com.example.idea.customviewcollection.view.WoolglassImageView
+        android:id="@+id/wiv_woolglass"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <SeekBar
+        android:id="@+id/sb_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="350dp"/>
+
+
+</FrameLayout>

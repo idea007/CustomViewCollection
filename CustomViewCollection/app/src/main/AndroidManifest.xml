@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.idea.customviewcollection">
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme">
+        <activity android:name=".HomeActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".act.SearchViewActivity" />
+        <activity android:name=".act.DrawerArrowDrawableActivity" />
+        <activity android:name=".act.MagicLineActivity" />
+        <activity android:name=".act.BezierCurvesActivity" />
+        <activity android:name=".act.WaveViewActivity" />
+        <activity android:name=".act.SpecialViewEventActivity" />
+        <activity android:name=".act.LeafLoadingActivity" />
+        <activity android:name=".act.InkPageIndicatorActivity" />
+        <activity android:name=".act.DragBubbleActivity" />
+        <activity android:name=".act.FloatingViewActivity" />
+        <activity android:name=".act.WoolglassActivity" />
+    </application>
+
+</manifest>

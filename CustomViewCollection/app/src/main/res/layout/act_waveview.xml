@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <com.example.idea.customviewcollection.view.WaveView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <SeekBar
+        android:id="@+id/sb_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="17dp"
+        android:progress="50"
+        android:max="100"
+        android:visibility="gone"
+        />
+
+    <com.example.idea.customviewcollection.view.bezier.WaveView
+        android:id="@+id/wv_waveview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
