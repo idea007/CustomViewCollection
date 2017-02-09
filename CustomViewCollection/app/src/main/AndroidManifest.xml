@@ -28,6 +28,7 @@
         <activity android:name=".act.DragBubbleActivity" />
         <activity android:name=".act.FloatingViewActivity" />
         <activity android:name=".act.WoolglassActivity" />
+        <activity android:name=".act.AnimTextViewActivity" />
     </application>
 
 </manifest>

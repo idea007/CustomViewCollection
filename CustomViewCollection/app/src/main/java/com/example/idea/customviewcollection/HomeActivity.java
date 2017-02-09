@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.idea.customviewcollection.act.AnimTextViewActivity;
 import com.example.idea.customviewcollection.act.WoolglassActivity;
 import com.example.idea.customviewcollection.adapter.PreviewInfoAdapter;
 import com.example.idea.customviewcollection.model.PreviewInfo;
@@ -55,6 +56,7 @@ public class HomeActivity extends AppCompatActivity {
         previewInfos.add(new PreviewInfo("DragBubbleView"));
         previewInfos.add(new PreviewInfo("FloatingView"));
         previewInfos.add(new PreviewInfo("Woolglass"));
+        previewInfos.add(new PreviewInfo("AnimTextView"));
     }
 
     private void initView() {
@@ -96,6 +98,9 @@ public class HomeActivity extends AppCompatActivity {
                         break;
                     case 10:
                         startActivity(new Intent(HomeActivity.this, WoolglassActivity.class));
+                        break;
+                    case 11:
+                        startActivity(new Intent(HomeActivity.this, AnimTextViewActivity.class));
                         break;
                     default:
                         break;
